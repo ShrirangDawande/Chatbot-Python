@@ -10,6 +10,11 @@ from langchain_core.runnables import RunnablePassthrough
 OPENAI_API_KEY=''
 
 # Upload PDF files
+st.set_page_config(
+    page_title="Chatbot",
+    page_icon=":chart_with_upwards_trend:", # Optional: use an emoji or file path
+    layout="wide", # Optional: other configuration options
+)
 st.header("Shrirang Chatbot")
 
 with st.sidebar:
